@@ -1,6 +1,7 @@
 <?php
 $t = "Meine erste PHO Seite(heute)";
-$i = 3;
+$i = 5;
+
 $i2 = 7;
 $total = $i * $i2;
 
