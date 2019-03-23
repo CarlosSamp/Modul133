@@ -1,10 +1,12 @@
 <?php
 $t = "Meine erste PHO Seite(heute)";
-$i = 5;
+$i = 3;
 
 $i2 = 7;
 $total = $i * $i2;
-
+$apfel = 2.50;
+$melone = 4;
+$limette = 5;
 $vorname = "Carlos";
 
 ?>
@@ -20,14 +22,15 @@ $vorname = "Carlos";
     <title><?php echo "$t"?></title>
 <body>
 
-echo <<<<'DOC'
+
 <table border="1" cellpadding="5" cellspacing="0">
 <tr>
     <td>Vorname</td>
+    <td>Nachname</td>
 </tr>
 <tr>    
+    <td><?php echo "$vorname"?></td>
     <td></td>
-    <td>echo "$vorname"</td>
 </tr>
 
 </table>
