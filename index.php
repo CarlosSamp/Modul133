@@ -2,12 +2,13 @@
 $t = "Meine erste PHO Seite(heute)";
 $i = 3;
 
-$i2 = 7;
+$i2 = 6;
 $total = $i * $i2;
 $apfel = 2.50;
 $melone = 4;
-$limette = 5;
+$limette = 6;
 $vorname = "Carlos";
+
 
 ?>
 
